@@ -722,6 +722,13 @@ h3 {
   margin: 0;
 }
 
+.contact-method-list.single-method {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .contact-method {
   display: grid;
   gap: 8px;
